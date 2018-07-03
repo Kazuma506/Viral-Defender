@@ -47,10 +47,10 @@ public:
 		void OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vitals")
-	float health;
+		float health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vitals")
-	float ammo;
+		float ammo;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Vitals")
-	bool bAntibodiesActive;
+		bool bAntibodiesActive;
 	
 };
